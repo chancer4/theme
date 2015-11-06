@@ -1,0 +1,37 @@
+/* line 3, ../compass/sass/style.scss */
+body {
+  padding-top: 0;
+}
+
+/* line 8, ../compass/sass/style.scss */
+#header nav {
+  position: relative;
+  z-index: 1000;
+}
+
+/* line 14, ../compass/sass/style.scss */
+.container.A {
+  background-image: url("../../background.jpg");
+  /*height: 150px;*/
+}
+
+/* line 22, ../compass/sass/style.scss */
+.container.B img {
+  border-radius: 55px;
+  width: 100%;
+}
+
+/* line 30, ../compass/sass/style.scss */
+.container.C #fancybox img {
+  width: 100%;
+}
+
+/* line 36, ../compass/sass/style.scss */
+.container.G .col-md-2.col-md-offset-2.B {
+  text-align: right;
+}
+
+/* line 40, ../compass/sass/style.scss */
+.container.G .col-md-2.col-md-offset-2 {
+  text-align: center;
+}
