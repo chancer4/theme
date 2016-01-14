@@ -1,37 +1,371 @@
-/* line 3, ../compass/sass/style.scss */
-body {
-  padding-top: 0;
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700");
+/* line 10, ../compass/sass/_base.scss */
+.navbar {
+  border: none;
+  font-size: 12px;
+}
+/* line 17, ../compass/sass/_base.scss */
+.navbar-default .badge {
+  background-color: #fff;
+  color: #4E5D6C;
+}
+/* line 25, ../compass/sass/_base.scss */
+.navbar-inverse .badge {
+  background-color: #fff;
+  color: #DF691A;
 }
 
-/* line 8, ../compass/sass/style.scss */
+/* line 37, ../compass/sass/_base.scss */
+.btn-default:hover {
+  background-color: #485563;
+}
+/* line 42, ../compass/sass/_base.scss */
+.btn-sm, .btn-xs {
+  font-size: 12px;
+}
+
+/* line 50, ../compass/sass/_base.scss */
+.text-primary,
+.text-primary:hover {
+  color: #DF691A;
+}
+
+/* line 55, ../compass/sass/_base.scss */
+.text-success,
+.text-success:hover {
+  color: #5cb85c;
+}
+
+/* line 60, ../compass/sass/_base.scss */
+.text-danger,
+.text-danger:hover {
+  color: #d9534f;
+}
+
+/* line 65, ../compass/sass/_base.scss */
+.text-warning,
+.text-warning:hover {
+  color: #f0ad4e;
+}
+
+/* line 70, ../compass/sass/_base.scss */
+.text-info,
+.text-info:hover {
+  color: #5bc0de;
+}
+
+/* line 75, ../compass/sass/_base.scss */
+.page-header {
+  border-bottom-color: #4E5D6C;
+}
+
+/* line 79, ../compass/sass/_base.scss */
+.dropdown-menu {
+  border: none;
+  margin: 0;
+}
+/* line 85, ../compass/sass/_base.scss */
+.dropdown-menu > li > a {
+  font-size: 12px;
+}
+
+/* line 94, ../compass/sass/_base.scss */
+.dropdown-header {
+  font-size: 12px;
+}
+
+/* line 100, ../compass/sass/_base.scss */
+table,
+.table {
+  font-size: 12px;
+}
+/* line 104, ../compass/sass/_base.scss */
+table a:not(.btn),
+.table a:not(.btn) {
+  color: #fff;
+  text-decoration: underline;
+}
+/* line 109, ../compass/sass/_base.scss */
+table .dropdown-menu a,
+.table .dropdown-menu a {
+  text-decoration: none;
+}
+/* line 113, ../compass/sass/_base.scss */
+table .text-muted,
+.table .text-muted {
+  color: #4E5D6C;
+}
+/* line 117, ../compass/sass/_base.scss */
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td,
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  border-color: transparent;
+}
+
+/* line 129, ../compass/sass/_base.scss */
+input,
+textarea {
+  color: #2B3E50;
+}
+
+/* line 134, ../compass/sass/_base.scss */
+label,
+.radio label,
+.checkbox label,
+.help-block {
+  font-size: 12px;
+}
+
+/* line 141, ../compass/sass/_base.scss */
+.input-addon,
+.input-group-addon {
+  color: #EBEBEB;
+}
+
+/* line 147, ../compass/sass/_base.scss */
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline, .has-warning.radio label, .has-warning.checkbox label, .has-warning.radio-inline label, .has-warning.checkbox-inline label,
+.has-warning .form-control-feedback {
+  color: #f0ad4e;
+}
+/* line 161, ../compass/sass/_base.scss */
+.has-warning .input-group-addon {
+  border: none;
+}
+
+/* line 167, ../compass/sass/_base.scss */
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label,
+.has-error .form-control-feedback {
+  color: #d9534f;
+}
+/* line 181, ../compass/sass/_base.scss */
+.has-error .input-group-addon {
+  border: none;
+}
+
+/* line 187, ../compass/sass/_base.scss */
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline, .has-success.radio label, .has-success.checkbox label, .has-success.radio-inline label, .has-success.checkbox-inline label,
+.has-success .form-control-feedback {
+  color: #5cb85c;
+}
+/* line 201, ../compass/sass/_base.scss */
+.has-success .input-group-addon {
+  border: none;
+}
+
+/* line 221, ../compass/sass/_base.scss */
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: transparent;
+}
+
+/* line 229, ../compass/sass/_base.scss */
+.nav-tabs > li > a {
+  color: #EBEBEB;
+}
+
+/* line 235, ../compass/sass/_base.scss */
+.nav-pills > li > a {
+  color: #EBEBEB;
+}
+
+/* line 241, ../compass/sass/_base.scss */
+.pager a {
+  color: #EBEBEB;
+}
+
+/* line 248, ../compass/sass/_base.scss */
+.alert {
+  color: #fff;
+}
+/* line 251, ../compass/sass/_base.scss */
+.alert a,
+.alert .alert-link {
+  color: #fff;
+}
+
+/* line 257, ../compass/sass/_base.scss */
+.close {
+  opacity: 0.4;
+}
+/* line 260, ../compass/sass/_base.scss */
+.close:hover, .close:focus {
+  opacity: 1;
+}
+
+/* line 276, ../compass/sass/_base.scss */
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+  border: none;
+}
+/* line 283, ../compass/sass/_base.scss */
+a.list-group-item-success.active {
+  background-color: #5cb85c;
+}
+/* line 287, ../compass/sass/_base.scss */
+a.list-group-item-success.active:hover, a.list-group-item-success.active:focus {
+  background-color: #4cae4c;
+}
+/* line 294, ../compass/sass/_base.scss */
+a.list-group-item-warning.active {
+  background-color: #f0ad4e;
+}
+/* line 298, ../compass/sass/_base.scss */
+a.list-group-item-warning.active:hover, a.list-group-item-warning.active:focus {
+  background-color: #eea236;
+}
+/* line 305, ../compass/sass/_base.scss */
+a.list-group-item-danger.active {
+  background-color: #d9534f;
+}
+/* line 309, ../compass/sass/_base.scss */
+a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
+  background-color: #d43f3a;
+}
+
+/* line 316, ../compass/sass/_base.scss */
+.panel {
+  border: none;
+}
+/* line 319, ../compass/sass/_base.scss */
+.panel-default > .panel-heading {
+  background-color: #485563;
+  color: #EBEBEB;
+}
+
+/* line 325, ../compass/sass/_base.scss */
+.thumbnail {
+  background-color: #4E5D6C;
+  border: none;
+}
+
+/* line 330, ../compass/sass/_base.scss */
+.modal {
+  padding: 0;
+}
+/* line 333, ../compass/sass/_base.scss */
+.modal-header, .modal-footer {
+  background-color: #485563;
+  border: none;
+  border-radius: 0;
+}
+
+/* line 342, ../compass/sass/_base.scss */
+.popover-title {
+  border: none;
+}
+
+/* line 6, ../compass/sass/style.scss */
+body {
+  padding: 0;
+  background-width: 100%;
+}
+
+/* line 12, ../compass/sass/style.scss */
+#header {
+  padding-bottom: 1%;
+}
+/* line 14, ../compass/sass/style.scss */
 #header nav {
   position: relative;
-  z-index: 1000;
+  z-index: 100;
 }
 
-/* line 14, ../compass/sass/style.scss */
+/* line 20, ../compass/sass/style.scss */
 .container.A {
-  background-image: url("../../background.jpg");
   /*height: 150px;*/
 }
 
-/* line 22, ../compass/sass/style.scss */
+/* line 27, ../compass/sass/style.scss */
+#owl-demo .item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* line 36, ../compass/sass/style.scss */
 .container.B img {
   border-radius: 55px;
   width: 100%;
 }
-
-/* line 30, ../compass/sass/style.scss */
+/* line 40, ../compass/sass/style.scss */
+.container.B .row.B1 {
+  padding-right: 15px;
+}
+/* line 45, ../compass/sass/style.scss */
+.container.B .row.B1 .progress {
+  animation: progressBar 3s ease-in-out;
+  animation-fill-mode: both;
+}
+@keyframes progressBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+/* line 63, ../compass/sass/style.scss */
+.container.C #fancybox {
+  padding: 3% 0% 3%;
+  color: white;
+}
+/* line 67, ../compass/sass/style.scss */
 .container.C #fancybox img {
   width: 100%;
 }
 
-/* line 36, ../compass/sass/style.scss */
+/* line 74, ../compass/sass/style.scss */
+.container.D .panel-title {
+  text-align: center;
+}
+
+/* line 78, ../compass/sass/style.scss */
+.container.E {
+  margin-bottom: 1%;
+}
+
+/* line 83, ../compass/sass/style.scss */
+.container.F .overlay {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  height: 300px;
+  /* your iframe height */
+  top: 300px;
+  /* your iframe height */
+  margin-top: -300px;
+  /* your iframe height */
+}
+
+/* line 95, ../compass/sass/style.scss */
 .container.G .col-md-2.col-md-offset-2.B {
   text-align: right;
 }
-
-/* line 40, ../compass/sass/style.scss */
+/* line 98, ../compass/sass/style.scss */
 .container.G .col-md-2.col-md-offset-2 {
   text-align: center;
 }
