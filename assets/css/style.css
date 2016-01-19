@@ -296,21 +296,23 @@ body {
 
 /* line 20, ../compass/sass/style.scss */
 .container.A {
-  /*height: 150px;*/
+  margin-left: 0;
+  width: 100vw;
+  height: 100vh;
   position: relative;
 }
-/* line 25, ../compass/sass/style.scss */
+/* line 27, ../compass/sass/style.scss */
 .container.A #logo {
   position: absolute;
   z-index: 24;
-  top: 85px;
-  left: 100px;
+  top: 20%;
+  left: 20%;
 }
-/* line 32, ../compass/sass/style.scss */
+/* line 34, ../compass/sass/style.scss */
 .container.A .overlayA {
   position: relative;
 }
-/* line 36, ../compass/sass/style.scss */
+/* line 38, ../compass/sass/style.scss */
 .container.A .overlayA:after {
   content: " ";
   z-index: 10;
@@ -323,27 +325,27 @@ body {
   background: rgba(250, 250, 250, 0.7);
 }
 
-/* line 49, ../compass/sass/style.scss */
+/* line 51, ../compass/sass/style.scss */
 .item {
   position: relative;
 }
-/* line 52, ../compass/sass/style.scss */
+/* line 54, ../compass/sass/style.scss */
 .item img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-/* line 62, ../compass/sass/style.scss */
+/* line 64, ../compass/sass/style.scss */
 .container.B img {
   border-radius: 55px;
   width: 100%;
 }
-/* line 66, ../compass/sass/style.scss */
+/* line 68, ../compass/sass/style.scss */
 .container.B .row.B1 {
   padding-right: 15px;
 }
-/* line 71, ../compass/sass/style.scss */
+/* line 73, ../compass/sass/style.scss */
 .container.B .row.B1 .progress {
   animation: progressBar 3s ease-in-out;
   animation-fill-mode: both;
@@ -356,27 +358,27 @@ body {
     width: 100%;
   }
 }
-/* line 89, ../compass/sass/style.scss */
+/* line 91, ../compass/sass/style.scss */
 .container.C #fancybox {
   padding: 3% 0% 3%;
   color: white;
 }
-/* line 93, ../compass/sass/style.scss */
+/* line 95, ../compass/sass/style.scss */
 .container.C #fancybox img {
   width: 100%;
 }
 
-/* line 100, ../compass/sass/style.scss */
+/* line 102, ../compass/sass/style.scss */
 .container.D .panel-title {
   text-align: center;
 }
 
-/* line 104, ../compass/sass/style.scss */
+/* line 106, ../compass/sass/style.scss */
 .container.E {
   margin-bottom: 1%;
 }
 
-/* line 109, ../compass/sass/style.scss */
+/* line 111, ../compass/sass/style.scss */
 .container.F .overlay {
   background: transparent;
   position: relative;
@@ -389,11 +391,11 @@ body {
   /* your iframe height */
 }
 
-/* line 121, ../compass/sass/style.scss */
+/* line 123, ../compass/sass/style.scss */
 .container.G .col-md-2.col-md-offset-2.B {
   text-align: right;
 }
-/* line 124, ../compass/sass/style.scss */
+/* line 126, ../compass/sass/style.scss */
 .container.G .col-md-2.col-md-offset-2 {
   text-align: center;
 }
