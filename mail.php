@@ -1,8 +1,8 @@
 <?php
 
- $name = $_POST['name'];
+ // $name = $_POST['name'];
  $email = $_POST['email'];
- $tel = $_POST['tel'];
+ // $tel = $_POST['tel'];
  $message = $_POST['message'];
 
     require_once('/usr/share/php/libphp-phpmailer/class.phpmailer.php');

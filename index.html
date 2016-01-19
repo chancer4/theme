@@ -162,21 +162,21 @@
 		<div class="row">
 			<div id="contact" class="col-md-6 col-md-offset-3">
 				<h2>Contact Me</h2>
-
-				<div class="form-group">
-					<label for="inputEmail" class="col-lg-2 control-label">This is for your email</label>
-					<div class="col-lg-10">
-						<input type="text" class="form-control" id="inputEmail" placeholder="Email">
-					</div>
-				</div>
 				<form action="mail.php" method="post" accept-charset="utf-8">
-				<div class="form-group">
-					<label for="textArea" class="col-lg-2 control-label">Message Goes here</label>
-					<div class="col-lg-10">
-						<textarea class="form-control" rows="3" id="textArea" placeholder="Enter message here.."></textarea>
+					<div class="form-group">
+						<label for="inputEmail" class="col-lg-2 control-label">This is for your email</label>
+						<div class="col-lg-10">
+							<input name="email" type="text" class="form-control" id="inputEmail" placeholder="Email">
+						</div>
 					</div>
-					<button class="btn btn-primary col-md-offset-2" type="submit" value="Send It!">Send it!</button>
-				</div>
+					
+					<div class="form-group">
+						<label for="textArea" class="col-lg-2 control-label">Message Goes here</label>
+						<div class="col-lg-10">
+							<textarea name="message" class="form-control" rows="3" id="textArea" placeholder="Enter message here.."></textarea>
+						</div>
+						<button class="btn btn-primary col-md-offset-2" type="submit" value="Send It!">Send it!</button>
+					</div>
 				</form>
 
 
